@@ -1,0 +1,19 @@
+# .streamlit/config.toml
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+level = "info"
+
+[client]
+toolbarMode = "minimal"
+
+[runtime]
+# Specify a Python version compatible with TensorFlow
+# Python 3.9, 3.10, or 3.11 are good choices for TensorFlow 2.x
+python_version = "3.9"
