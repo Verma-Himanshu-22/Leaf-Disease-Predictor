@@ -1,5 +1,4 @@
-# requirements.txt
-numpy==1.26.4
-opencv-python-headless==4.8.0.76
-streamlit==1.33.0 # Pin to a stable version
-tensorflow==2.15.0 # Pin to a version compatible with Python 3.9/3.10/3.11
+tensorflow==2.15.0
+numpy
+opencv-python-headless
+streamlit
